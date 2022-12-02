@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<!--PROJECT TIME: 4 Hrs-->
+<!--MESS WITH PADDING SO I CAN ELIMINATE UNNEEDED CELLS IN TABLE-->
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<title>Periodic Table</title>
+	</head>
+		<body>
+				
+		<!-- <button onclick="myFunction()">Click Here</button>  -->
+				
+		<p id="demo"></p>	
+		<p id="tableContents"></p>
+		<p id="demo1"></p>
+		
+		
+		<h1>Periodic Table </h1>
+			
+	<table id="perTable">
+		
+	<!--
+		<div class="testDiv">
+		<tr>
+			<td>1st</td>
+			<td style="margin:200px">2nd</td>
+		</tr>
+		</div>	
+	-->	
+		<tr> 
+			<td class="nonmetal" id="1" title="Hydrogen">H</td>
+			<td id="hide" colspan="16"></td>
+			<td class="noble" id="2" title="Helium">He</td>
+		</tr>
+	
+		<tr>
+			<td class="alkali" onclick="alert('holy crap')">Li</td>
+			<td class="alkali-earth">Be</td>
+			<td id="hide" colspan="10"></td>
+			
+			<td class="metalloids">B</td>
+			<td class="nonmetal">C</td>
+			<td class="nonmetal">N</td>
+			<td class="nonmetal">O</td>
+			<td class="nonmetal">F</td>
+			<td class="noble">Ne</td>
+		</tr>
+		
+		<tr>
+			<td class="alkali">Na</td>
+			<td class="alkali-earth">Mg</td>
+			<td id="hide" colspan="10"></td>
+			<td class="post-transition">Al</td>
+			<td class="metalloids">Si</td>
+			<td class="nonmetal">P</td>
+			<td class="nonmetal">S</td>
+			<td class="nonmetal">Ci</td>
+			<td class="noble">Ar</td>
+		</tr>
+	
+		<tr>
+			<td class="alkali">K</td>
+			<td class="alkali-earth">Ca</td>
+			<td class="transition">Sc</td>
+			<td class="transition">Ti</td>
+			<td class="transition">V</td>
+			<td class="transition">Cr</td>
+			<td class="transition">Mn</td>
+			<td class="transition">Fe</td>
+			<td class="transition">Co</td>
+			<td class="transition">Ni</td>
+			<td class="transition">Cu</td>
+			<td class="transition">Zn</td>
+			<td class="post-transition">Ga</td>
+			<td class="metalloids">Ge</td>
+			<td class="metalloids">As</td>
+			<td class="nonmetal">Se</td>
+			<td class="nonmetal">Br</td>
+			<td class="noble">Kr</td>
+		</tr>
+		<tr>
+			<td class="alkali">RB</td>
+			<td class="alkali-earth">SR</td>
+			<td class="transition">Y</td>
+			<td class="transition">ZR</td>
+			<td class="transition">NB</td>
+			<td class="transition">MO</td>
+			<td class="transition">TC</td>
+			<td class="transition">RU</td>
+			<td class="transition">RH</td>
+			<td class="transition">PD</td>
+			<td class="transition">AG</td>
+			<td class="transition">CD</td>
+			<td class="post-transition">IN</td>
+			<td class="post-transition">SN</td>
+			<td class="metalloids">SB</td>
+			<td class="metalloids">TE</td>
+			<td class="nonmetal">I</td>
+			<td class="noble">XE</td>
+		</tr>
+		
+		<tr>
+			<td class="alkali">CS</td>
+			<td class="alkali-earth">BA</td>
+			<td class="lan">LA</td>
+			<td class="transition">HF</td>
+			<td class="transition">TA</td>
+			<td class="transition">W</td>
+			<td class="transition">RE</td>
+			<td class="transition">OS</td>
+			<td class="transition">IR</td>
+			<td class="transition">PT</td>
+			<td class="transition">AU</td>
+			<td class="transition">HG</td>
+			<td class="post-transition">TI</td>
+			<td class="post-transition">PB</td>
+			<td class="post-transition">BI</td>
+			<td class="post-transition">PO</td>
+			<td class="post-transition">AT</td>
+			<td class="noble">RN</td>
+		</tr>
+		
+		<tr>
+			<td class="alkali">FR</td>
+			<td class="alkali-earth">Ra</td>
+			<td class="act">AC</td>
+			<td class="transition">RF</td>
+			<td class="transition">DB</td>
+			<td class="transition">SG</td>
+			<td class="transition">BH</td>
+			<td class="transition">HS</td>
+			<td class="unknown">MT</td>
+			<td class="unknown">DS</td>
+			<td class="unknown">RG</td>
+			<td class="unknown">CN</td>
+			<td class="unknown">NH</td> 
+			<td class="unknown">FI</td>
+			<td class="unknown">MC</td>
+			<td class="unknown">LV</td>
+			<td class="unknown">TS</td>
+			<td class="unknown">OG</td>
+		</tr>
+	
+		<tr>
+			<td id="hide" colspan="3"></td>
+			<td class="lan">CE</td>
+			<td class="lan">PR</td>
+			<td class="lan">ND</td>
+			<td class="lan">PM</td>
+			<td class="lan">SM</td>
+			<td class="lan">EU</td>
+			<td class="lan">GD</td>
+			<td class="lan">TB</td>
+			<td class="lan">DY</td>
+			<td class="lan">HO</td>
+			<td class="lan">ER</td>
+			<td class="lan">TM</td>
+			<td class="lan">YB</td>
+			<td class="lan">LU</td>
+		</tr>
+		
+	
+		
+		<tr>
+			<td id="hide" colspan="3"></td>
+			<td class="act">TH</td>
+			<td class="act">PA</td>
+			<td class="act">U</td>
+			<td class="act">NP</td>
+			<td class="act">PU</td>
+			<td class="act">AM</td>
+			<td class="act">CM</td>
+			<td class="act">BK</td>
+			<td class="act">CF</td>
+			<td class="act">ES</td>
+			<td class="act">FM</td>
+			<td class="act">MD</td> 
+			<td class="act">NO</td>
+			<td class="act">LR</td> 
+		
+		</tr>
+	
+	</table>
+	
+	
+			
+		<!--		<div class="grid-container">
+						<div class="grid-item">H</div>
+					</div>
+					
+					<div class="grid-container">
+						<div class="grid-item">Li</div>
+						<div class="grid-item">Be</div>
+					</div>
+					
+					<div class="grid-container">
+						<div class="grid-item">Na</div>
+						<div class="grid-item">Mg</div>
+					</div>	
+						
+					<div class="grid-container">
+						<div class="grid-item">K</div>
+						<div class="grid-item">Ca</div>
+						<div class="grid-item">Sc</div>
+					</div>
+					
+						<div class="grid-container">
+						<div class="grid-item">Rb</div>
+						<div class="grid-item">Sr</div>
+						<div class="grid-item">Y</div>
+					</div>
+					
+						<div class="grid-container">
+						<div class="grid-item">Cs</div>
+						<div class="grid-item">Bs</div>
+						<div class="grid-item">La</div>
+					</div>
+					
+						<div class="grid-container">
+						<div class="grid-item">Fr</div>
+						<div class="grid-item">Ra</div>
+						<div class="grid-item">Ac</div>
+					</div>
+					
+					old grid div that wouldn't work 
+					
+					
+					.grid-container {
+			  display: grid;
+			  grid-template-columns: 100px 100px 100px;
+			  grid-template-rows: 100px;
+			  background-color: #2196F3;
+			  padding: 10px;
+			}
+			.grid-item {
+			  background-color: rgba(204, 255, 255, 0.8);
+			  border: 1px solid rgba(0, 0, 0, 0.8);
+			  padding: 10px;
+			  font-size: 30px;
+			  text-align: center
+			}
+					
+						.testDiv{
+				background-color:black;
+			}
+			-->	
+		<script src="myScript.js">
+		</script>
+				
+	</body>
+	
+</html>

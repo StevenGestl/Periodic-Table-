@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(153,153,255);
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    width:200px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto
+  
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #DDD;
+  }
+  
+          .alkali{
+          background-color:#99e6ff;
+          }
+          
+          .alkali-earth{
+          background-color:pink;
+          }
+          
+          .transition{
+          background-color:#b399ff;
+          }
+          
+          
+          .metalloids{
+          background-color:yellow;
+          }
+          
+      
+          .noble{
+          background-color: #ffb3b3;
+          }
+          
+          .nonmetal{
+          background-color:#99b3ff;
+          }
+          
+          .post-transition{
+          background-color:green; 
+          }
+          
+          .lan{
+          background-color:#66ffb3;
+          }
+          
+          
+          .act{
+          background-color:orange;
+          }
+          
+          .unknown{
+          background-color:gray;
+          }
+          
+          #hide{
+          border:none;
+          }
+  
+  
+      tD:hover {color:red;
+          }
